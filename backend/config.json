@@ -1,0 +1,6 @@
+{
+  "innovaphone_pbx_listener_addr": "0.0.0.0",
+  "innovaphone_pbx_listener_port": 6006,
+  "backend_listener_addr": "0.0.0.0",
+  "backend_listener_port": 4001
+}
