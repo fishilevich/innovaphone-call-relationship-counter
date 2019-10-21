@@ -6,7 +6,7 @@ A proof of concept tool for displaying call relationships within an innovaphone 
 
 1. The innovaphone PBX generates CDRs (call detail records) and sends them to the __backend__.
 
-2. The __backend__ does some filtering and preparation of CDR data and hold it for incoming __frontend__ connections.
+2. The __backend__ does some filtering and preparation of CDR data and provides it for incoming __frontend__ connections.
 
 3. A __frontend__ connects to the __backend__, gets the relationship data and displays it.
 
