@@ -16,6 +16,6 @@ A proof of concept tool for displaying call relationships within an innovaphone 
 
 * [Node.js](https://nodejs.org/en/) - Backend
 * [React](https://reactjs.org/) - Frontend
-* [socket.io] (https://socket.io/) - Communication
+* [socket.io](https://socket.io/) - Communication
 * [vis.js](https://visjs.org/) - Used to generate live network view
 
