@@ -57,22 +57,8 @@ class VisNetwork extends Component {
     var edges_temp = [];
 
     for (var item of relationsships) {
-      if (
-        !nodes_temp.get(item.number1) &&
-        item.number1 !== "750" &&
-        item.number1 !== "760" &&
-        item.number1 !== "770"
-      ) {
-        nodes_temp.set(item.number1, item.name1);
-      }
-      if (
-        !nodes_temp.get(item.number2) &&
-        item.number2 !== "750" &&
-        item.number1 !== "760" &&
-        item.number1 !== "770"
-      ) {
-        nodes_temp.set(item.number2, item.name2);
-      }
+      nodes_temp.set(item.number1, item.name1);
+      nodes_temp.set(item.number2, item.name2);
 
       var e = {};
       e.id = "" + item.number1 + item.number2;
@@ -137,19 +123,6 @@ class VisNetwork extends Component {
         value: count * 2
       });
     });
-
-    /*
-    this.nodes.forEach(item => {
-      var count = this.network.getConnectedNodes(item.id).length;
-      this.nodes.update({
-        id: item.id,
-        label: item.label,
-        title: item.title + " - " + count,
-        shape: "box",
-        value: count * 2
-      });
-    });
-    */
 
     //console.log(this.nodes);
     //console.log(edges_temp);
