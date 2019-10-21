@@ -10,6 +10,8 @@ A proof of concept tool for displaying call relationships within an innovaphone 
 
 3. A __frontend__ connects to the __backend__, gets the relationship data and displaying it.
 
+![Network view](docs/network.png?raw=true "Network view")
+
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - For backend
