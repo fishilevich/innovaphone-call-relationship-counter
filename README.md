@@ -8,7 +8,7 @@ A proof of concept tool for displaying call relationships within an innovaphone 
 
 2. The __backend__ does some filtering and preparation of CDR data and hold it for incoming __frontend__ connections.
 
-3. A __frontend__ connects to the __backend__, gets the relationship data and displaying it.
+3. A __frontend__ connects to the __backend__, gets the relationship data and displays it.
 
 ![Network view](docs/network.gif?raw=true "Network view")
 
